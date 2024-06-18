@@ -78,7 +78,7 @@ author = 'LVGL community'
 # built documents.
 #
 # The short X.Y version.
-# embeddedt: extract using scripts/find_version.sh
+# embedded: extract using scripts/find_version.sh
 
 version = ''
 
