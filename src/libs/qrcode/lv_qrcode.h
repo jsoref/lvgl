@@ -68,7 +68,7 @@ void lv_qrcode_set_light_color(lv_obj_t * obj, lv_color_t color);
 /**
  * Set the data of a QR code object
  * @param obj pointer to a QR code object
- * @param data data to display
+ * @param data to display
  * @param data_len length of data in bytes
  * @return LV_RESULT_OK: if no error; LV_RESULT_INVALID: on error
  */
