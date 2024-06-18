@@ -50,7 +50,7 @@ typedef enum _lv_image_flags_t {
     LV_IMAGE_FLAGS_ALLOCATED        = 0x0010,
 
     /**
-     * If the image data is malloced and can be processed in place.
+     * If the image data is mallocated and can be processed in place.
      * In image decoder post processing, this flag means we modify it in-place.
      */
     LV_IMAGE_FLAGS_MODIFIABLE       = 0x0020,
