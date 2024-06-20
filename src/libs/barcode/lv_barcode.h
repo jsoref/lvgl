@@ -81,7 +81,7 @@ void lv_barcode_set_direction(lv_obj_t * obj, lv_dir_t direction);
 /**
  * Set the data of a barcode object
  * @param obj pointer to barcode object
- * @param data data to display
+ * @param data to display
  * @return LV_RESULT_OK: if no error; LV_RESULT_INVALID: on error
  */
 lv_result_t lv_barcode_update(lv_obj_t * obj, const char * data);

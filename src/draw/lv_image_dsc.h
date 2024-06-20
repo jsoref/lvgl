@@ -20,7 +20,7 @@ extern "C" {
  *********************/
 
 /** Magic number for lvgl image, 9 means lvgl version 9
- *  It must not be a valid ASCII character nor larger than 0x80. See `lv_image_src_get_type`.
+ *  It must be neither a valid ASCII character nor larger than 0x80. See `lv_image_src_get_type`.
  */
 #define LV_IMAGE_HEADER_MAGIC (0x19)
 LV_EXPORT_CONST_INT(LV_IMAGE_HEADER_MAGIC);
@@ -50,7 +50,7 @@ typedef enum _lv_image_flags_t {
     LV_IMAGE_FLAGS_ALLOCATED        = 0x0010,
 
     /**
-     * If the image data is malloced and can be processed in place.
+     * If the image data is mallocated and can be processed in place.
      * In image decoder post processing, this flag means we modify it in-place.
      */
     LV_IMAGE_FLAGS_MODIFIABLE       = 0x0020,

@@ -18,7 +18,7 @@ typedef struct _test_data {
     int32_t key1;
     int32_t key2;
 
-    void * data; // malloced data
+    void * data; // mallocated data
 } test_data;
 
 static lv_cache_compare_res_t compare_cb(const test_data * lhs, const test_data * rhs)

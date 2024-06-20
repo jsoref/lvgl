@@ -1232,7 +1232,7 @@
 #endif
 
 /*Export integer constant to binding. This macro is used with constants in the form of LV_<CONST> that
- *should also appear on LVGL binding API such as Micropython.*/
+ *should also appear on LVGL binding API such as MicroPython.*/
 #ifndef LV_EXPORT_CONST_INT
     #ifdef CONFIG_LV_EXPORT_CONST_INT
         #define LV_EXPORT_CONST_INT CONFIG_LV_EXPORT_CONST_INT
@@ -1598,7 +1598,7 @@
 #endif
 
 /*Enable Arabic/Persian processing
- *In these languages characters should be replaced with an other form based on their position in the text*/
+ *In these languages characters should be replaced with another form based on their position in the text*/
 #ifndef LV_USE_ARABIC_PERSIAN_CHARS
     #ifdef CONFIG_LV_USE_ARABIC_PERSIAN_CHARS
         #define LV_USE_ARABIC_PERSIAN_CHARS CONFIG_LV_USE_ARABIC_PERSIAN_CHARS
@@ -2881,7 +2881,7 @@
 #endif
 #if LV_USE_IME_PINYIN
     /*1: Use default thesaurus*/
-    /*If you do not use the default thesaurus, be sure to use `lv_ime_pinyin` after setting the thesauruss*/
+    /*If you do not use the default thesaurus, be sure to use `lv_ime_pinyin` after setting the thesaurus*/
     #ifndef LV_IME_PINYIN_USE_DEFAULT_DICT
         #ifdef _LV_KCONFIG_PRESENT
             #ifdef CONFIG_LV_IME_PINYIN_USE_DEFAULT_DICT
@@ -3052,7 +3052,7 @@
                 #define LV_X11_DOUBLE_BUFFER 0
             #endif
         #else
-            #define LV_X11_DOUBLE_BUFFER       1  /*Use double buffers for endering*/
+            #define LV_X11_DOUBLE_BUFFER       1  /*Use double buffers for rendering*/
         #endif
     #endif
     /*select only 1 of the following render modes (LV_X11_RENDER_MODE_PARTIAL preferred!)*/
